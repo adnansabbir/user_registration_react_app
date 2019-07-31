@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7705c5aa-94b5-4220-be2d-4b6e044ee999" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/components/edit-profile-form/edit-profile-form.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/edit_profile/edit_profile.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav-bar/nav-bar.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav-bar/nav-bar.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/profile/profile.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/profile/profile.component.jsx" afterDir="false" />
+>>>>>>> 3d356ab31e1482ca872712767b8fc3548cc85e61
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +22,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
@@ -91,6 +102,8 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> 3d356ab31e1482ca872712767b8fc3548cc85e61
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -102,6 +115,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -188,25 +202,40 @@
       </pane>
       <pane id="Scope" />
     </panes>
+=======
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+>>>>>>> 3d356ab31e1482ca872712767b8fc3548cc85e61
   </component>
+  <component name="ProjectId" id="1Ol6jZrWdbDzi58zflX7XgHxzKV" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="E:\Learnings\Selise Code Test\user_registration\node_modules\eslint" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="E:/Learnings/Selise Code Test/user_registration/node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Learnings\Selise Code Test\user_registration\src\components" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Learnings\Selise Code Test\user_registration\public" />
       <recent name="E:\Learnings\Selise Code Test\user_registration\src" />
       <recent name="E:\Learnings\Selise Code Test\user_registration\src\pages\homepage" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="E:\Learnings\Selise Code Test\user_registration\src\components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -231,6 +260,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564511820126</updated>
+<<<<<<< HEAD
       <workItem from="1564511822412" duration="22921000" />
     </task>
     <servers />
@@ -382,5 +412,25 @@
         </state>
       </provider>
     </entry>
+=======
+      <workItem from="1564511822412" duration="21491000" />
+      <workItem from="1564539973670" duration="10463000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+>>>>>>> 3d356ab31e1482ca872712767b8fc3548cc85e61
   </component>
 </project>

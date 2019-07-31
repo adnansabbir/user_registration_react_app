@@ -10,8 +10,9 @@ class HomePage extends Component {
         super();
 
         this.state = {
-            'show_sign_up_form': false,
-            'show_login_form': false
+            show_sign_up_form: false,
+            show_login_form: false,
+            logged_in_user: {}
         }
     }
 
@@ -30,13 +31,42 @@ class HomePage extends Component {
     };
 
     componentDidMount() {
-        console.log("This is Triggered");
-    }
+        this.setState({
+            logged_in_user: JSON.parse(localStorage.getItem('logged_in_user'))
+        })
+    };
+
+    bodyContent = () => {
+        if (this.state.logged_in_user && this.state.logged_in_user.name) {
+            return (
+                <div className="row align-items-center">
+                    <h1>Welcome to the club of Geeks</h1>
+                </div>
+            )
+        }
+
+        return (
+            <div className="row align-items-center">
+                <div className="col-lg-6 mb-4">
+                    <h1 data-aos="fade-up" data-aos-delay="100">Join The Club of Geeks</h1>
+                    <p className="mb-4" data-aos="fade-up" data-aos-delay="200">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Maxime ipsa nulla sed quis rerum amet natus quas necessitatibus.</p>
+                    <Button name={"Join Us"} color={'btn-primary'}
+                            action={this.showSignUpForm}/>
+                    <Button name={"Log In"} color={'btn-success'} action={this.showLogInForm}/>
+
+                </div>
+
+                {this.state.show_sign_up_form && <SignUpForm/>}
+                {this.state.show_login_form && <LogInForm/>}
+            </div>
+        )
+    };
 
     render() {
         return (
             <div>
-                <NavBar/>
+                <NavBar user={this.state.logged_in_user}/>
                 <div className="intro-section" id="home-section">
 
                     <div className="slide-1"
@@ -44,26 +74,7 @@ class HomePage extends Component {
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-12">
-                                    <div className="row align-items-center">
-                                        <div className="col-lg-6 mb-4">
-                                            <h1 data-aos="fade-up" data-aos-delay="100">Join The Geeks Club</h1>
-                                            <p className="mb-4" data-aos="fade-up" data-aos-delay="200">Lorem ipsum
-                                                dolor
-                                                sit
-                                                amet
-                                                consectetur adipisicing elit. Maxime ipsa nulla sed quis rerum amet
-                                                natus
-                                                quas
-                                                necessitatibus.</p>
-                                            <Button name={"Join Us"} color={'btn-primary'}
-                                                    action={this.showSignUpForm}/>
-                                            <Button name={"Log In"} color={'btn-success'} action={this.showLogInForm}/>
-
-                                        </div>
-
-                                        {this.state.show_sign_up_form && <SignUpForm/>}
-                                        {this.state.show_login_form && <LogInForm/>}
-                                    </div>
+                                    {this.bodyContent()}
                                 </div>
 
                             </div>
