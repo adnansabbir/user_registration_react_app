@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7705c5aa-94b5-4220-be2d-4b6e044ee999" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/profile/profile.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/edit-profile-form/edit-profile-form.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/edit_profile/edit_profile.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/log-in-form/log-in-form.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/log-in-form/log-in-form.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/nav-bar/nav-bar.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav-bar/nav-bar.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/dashboard.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/dashboard.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/profile/profile.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/profile/profile.component.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -51,13 +50,15 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Learnings\Selise Code Test\user_registration\src\components" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Learnings\Selise Code Test\user_registration\public" />
       <recent name="E:\Learnings\Selise Code Test\user_registration\src" />
       <recent name="E:\Learnings\Selise Code Test\user_registration\src\pages\homepage" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="E:\Learnings\Selise Code Test\user_registration\src\components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -83,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1564511820126</updated>
       <workItem from="1564511822412" duration="21491000" />
-      <workItem from="1564539973670" duration="5971000" />
+      <workItem from="1564539973670" duration="10463000" />
     </task>
     <servers />
   </component>

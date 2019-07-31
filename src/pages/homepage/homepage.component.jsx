@@ -37,7 +37,7 @@ class HomePage extends Component {
     };
 
     bodyContent = () => {
-        if (this.state.logged_in_user.name) {
+        if (this.state.logged_in_user && this.state.logged_in_user.name) {
             return (
                 <div className="row align-items-center">
                     <h1>Welcome to the club of Geeks</h1>

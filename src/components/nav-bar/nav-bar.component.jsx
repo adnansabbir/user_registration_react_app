@@ -12,7 +12,7 @@ const NavBarDropDown = ({user, logout, history}) => {
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a className="dropdown-item" onClick={()=>history.push('/profile')}>Profile</a>
-                    <a className="dropdown-item" href="#">Edit Profile</a>
+                    <a className="dropdown-item" onClick={()=>history.push('/edit')}>Edit Profile</a>
                     <div className="dropdown-divider"></div>
                     <a className="dropdown-item" onClick={logout} href='/'>Logout</a>
                 </div>
