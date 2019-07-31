@@ -1,0 +1,14 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+html{
+    background: url("https://www.thomsonreuters.com/content/dam/ewp-m/images/image-library/en/photography/201138-118072186.jpeg.transform/hero-s/q90/image.jpg") no-repeat center center fixed;
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
