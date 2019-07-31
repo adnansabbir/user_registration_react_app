@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/user_registration_react_app/static/css/main.9fdfa47d.chunk.css",
-    "main.js": "/user_registration_react_app/static/js/main.eadbe31f.chunk.js",
-    "main.js.map": "/user_registration_react_app/static/js/main.eadbe31f.chunk.js.map",
+    "main.js": "/user_registration_react_app/static/js/main.fe0c37e2.chunk.js",
+    "main.js.map": "/user_registration_react_app/static/js/main.fe0c37e2.chunk.js.map",
     "runtime~main.js": "/user_registration_react_app/static/js/runtime~main.3cb1e7c0.js",
     "runtime~main.js.map": "/user_registration_react_app/static/js/runtime~main.3cb1e7c0.js.map",
-    "static/js/2.88829aa2.chunk.js": "/user_registration_react_app/static/js/2.88829aa2.chunk.js",
-    "static/js/2.88829aa2.chunk.js.map": "/user_registration_react_app/static/js/2.88829aa2.chunk.js.map",
+    "static/js/2.fe05376c.chunk.js": "/user_registration_react_app/static/js/2.fe05376c.chunk.js",
+    "static/js/2.fe05376c.chunk.js.map": "/user_registration_react_app/static/js/2.fe05376c.chunk.js.map",
     "index.html": "/user_registration_react_app/index.html",
-    "precache-manifest.72b15c18478d25e2ae451fc14b0d394d.js": "/user_registration_react_app/precache-manifest.72b15c18478d25e2ae451fc14b0d394d.js",
+    "precache-manifest.e8323607a66c904f47b43e962530cba7.js": "/user_registration_react_app/precache-manifest.e8323607a66c904f47b43e962530cba7.js",
     "service-worker.js": "/user_registration_react_app/service-worker.js",
     "static/css/main.9fdfa47d.chunk.css.map": "/user_registration_react_app/static/css/main.9fdfa47d.chunk.css.map"
   }
