@@ -1,12 +1,15 @@
 import React, {Component} from 'react';
+import {withRouter} from 'react-router-dom';
 
 class LogInForm extends Component {
-    constructor() {
+    constructor({history}) {
         super();
 
         this.state = {
             email: '',
             password: '',
+            history: history,
+            users: []
         }
     }
 
@@ -18,17 +21,22 @@ class LogInForm extends Component {
 
     onFormSubmit = (event) => {
         event.preventDefault();
-
-        if (this.state.email && this.state.password){
-            console.log("Logged In");
-        }else {
+        const user = this.state.users.find(user => user.email === this.state.email && user.password === this.state.password);
+        if (user) {
+            localStorage.setItem('logged_in_user', JSON.stringify(user))
+            this.state.history.push('/');
+        } else {
             this.setState({
-                form_error:"There are errors in the form"
+                form_error: "Wrong Email or Password"
             })
         }
-
-
     };
+
+    componentDidMount() {
+        this.setState({
+            users: JSON.parse(localStorage.getItem('users'))
+        })
+    }
 
     render() {
         return (
@@ -39,10 +47,11 @@ class LogInForm extends Component {
 
                     <div className="form-group">
                         <input type="text" className="form-control" placeholder="Email Addresss" id='email'
-                               onChange={this.onInputChange}  required="required"/>
+                               onChange={this.onInputChange} required="required"/>
                     </div>
                     <div className="form-group">
-                        <input type="password" className="form-control" placeholder="Password" id='password' onChange={this.onInputChange}  required="required"/>
+                        <input type="password" className="form-control" placeholder="Password" id='password'
+                               onChange={this.onInputChange} required="required"/>
                     </div>
 
                     <div className="form-group">
@@ -56,4 +65,4 @@ class LogInForm extends Component {
     }
 }
 
-export default LogInForm;
+export default withRouter(LogInForm);

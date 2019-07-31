@@ -53,7 +53,7 @@ class SignUpForm extends Component {
                 name: this.state.full_name,
                 date_of_birth: this.state.date_of_birth,
                 email: this.state.email,
-                password: this.state.password,
+                password: this.state.password1,
                 role: this.state.role,
             };
             this.state.users.push(user);
@@ -84,8 +84,9 @@ class SignUpForm extends Component {
     };
 
     componentDidMount() {
+        const local_storage_user_data = JSON.parse(localStorage.getItem('users')) ;
         this.setState({
-            users:JSON.parse(localStorage.getItem('users'))
+            users: local_storage_user_data? local_storage_user_data : []
         })
     }
 
