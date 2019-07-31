@@ -23,8 +23,8 @@ class LogInForm extends Component {
         event.preventDefault();
         const user = this.state.users.find(user => user.email === this.state.email && user.password === this.state.password);
         if (user) {
-            localStorage.setItem('logged_in_user', JSON.stringify(user))
-            this.state.history.push('/');
+            localStorage.setItem('logged_in_user', JSON.stringify(user));
+            this.state.history.push('/dashboard');
         } else {
             this.setState({
                 form_error: "Wrong Email or Password"

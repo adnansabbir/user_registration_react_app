@@ -5,12 +5,21 @@ import {Switch, Route} from 'react-router-dom';
 
 
 class App extends Component {
+    constructor(){
+        super();
+
+        this.state={
+            logged_in_user:{}
+        }
+    }
+
     render() {
         return (
             <div>
                 <Switch>
                     <Route exact path='/' component={HomePage}/>
                     <Route exact path='/dashboard' component={Dashboard}/>
+                    <Route exact path='/profile' component={Dashboard}/>
                 </Switch>
             </div>
         )
